@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <style>
+        /* Element Selector */
+        p {
+            color: blue;
+        }
+
+        /* Class Selector */
+        .example {
+            font-size: 20px;
+        }
+
+        /* ID Selector */
+        #uniqueElement {
+            background-color: yellow;
+        }
+
+        /* Attribute Selector */
+        a[target] {
+            color: green;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Additional styling for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        div {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors Example</h1>
+    <div>
+        <p>This is a paragraph element. It is styled using the element selector.</p>
+        <p class="example">This paragraph has a class attribute with the value "example". It is styled using the class selector.</p>
+        <p id="uniqueElement">This paragraph has an id attribute with the value "uniqueElement". It is styled using the ID selector.</p>
+        <a href="#" target="_blank">This is a link with a target attribute. It is styled using the attribute selector.</a>
+    </div>
+</body>
+</html>
